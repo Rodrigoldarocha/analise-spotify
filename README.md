@@ -74,3 +74,7 @@ Google Colab
 📈 Resultados
 
 O modelo foi capaz de capturar parte significativa da relação entre as variáveis acústicas e a popularidade das músicas. Apesar de simples, a Regressão Linear serviu como uma excelente base para compreensão do problema e pode ser aprimorada com modelos mais complexos.
+
+Link do Notebook:
+
+https://colab.research.google.com/drive/1yIS8tf6hbeJ5139blAI4S-u2on1aQ7mc?usp=sharing

@@ -1,92 +1,77 @@
-🎧 Análise e Visualização de Dados do Spotify
+# 🎧 Análise e Visualização de Dados do Spotify
 
-Projeto de análise exploratória e visualização de dados utilizando um dataset do Spotify para extrair insights sobre músicas, artistas e padrões musicais.
+Projeto de Análise Exploratória de Dados (EDA) utilizando Python para explorar padrões musicais e extrair insights estratégicos a partir de um dataset do Spotify.
 
-📌 Objetivo
+---
+
+## 📌 Objetivo
 
 Este projeto tem como objetivo:
 
-Realizar análise exploratória de dados (EDA)
+- Realizar análise exploratória de dados
+- Identificar padrões e tendências musicais
+- Gerar visualizações estratégicas
+- Aplicar boas práticas de manipulação e análise de dados com Python
 
-Identificar padrões musicais e tendências
+---
 
-Visualizar informações relevantes de forma clara e estratégica
+## 🛠️ Tecnologias Utilizadas
 
-Aplicar técnicas de manipulação e análise de dados com Python
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-🛠️ Tecnologias Utilizadas
+---
 
-Python
+## 📊 Etapas do Projeto
 
-Pandas – Manipulação e tratamento de dados
+### 1. Importação e Tratamento dos Dados
+- Carregamento do dataset
+- Verificação de valores nulos
+- Ajustes de tipos de dados
+- Limpeza e padronização
 
-NumPy – Operações numéricas
+### 2. Análise Exploratória (EDA)
+- Estatísticas descritivas
+- Distribuição das variáveis
+- Análise de correlação
+- Identificação de padrões relevantes
 
-Matplotlib – Visualização de dados
+### 3. Visualização de Dados
+- Gráficos de distribuição
+- Heatmap de correlação
+- Análises comparativas
+- Insights visuais estratégicos
 
-Seaborn – Visualizações estatísticas
+---
 
-Jupyter Notebook – Ambiente de desenvolvimento
+## 📈 Possíveis Insights
 
-📊 Etapas do Projeto
+- Relação entre popularidade e energia
+- Distribuição de músicas por ano
+- Correlação entre danceability e valence
+- Características predominantes nas músicas mais populares
 
-1️⃣ Importação e Tratamento dos Dados
+---
 
-Carregamento do dataset
+## 🚀 Como Executar o Projeto
 
-Verificação de valores nulos
-
-Ajustes de tipos de dados
-
-Limpeza e padronização
-
-2️⃣ Análise Exploratória (EDA)
-
-Estatísticas descritivas
-
-Distribuição das variáveis
-
-Correlação entre atributos musicais
-
-Identificação de padrões relevantes
-
-3️⃣ Visualização de Dados
-
-Gráficos de distribuição
-
-Heatmaps de correlação
-
-Análises comparativas
-
-Insights visuais estratégicos
-
-📈 Exemplos de Insights Possíveis
-
-Relação entre popularidade e energia
-
-Distribuição de músicas por ano
-
-Correlação entre danceability e valence
-
-Características predominantes nas músicas mais populares
-
-🚀 Como Executar o Projeto
-
-Clone o repositório:
+### 1. Clone o repositório
 
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
-Acesse a pasta do projeto:
+### 2. Acesse a pasta
 
 cd seu-repositorio
 
-Instale as dependências:
+### 3. Instale as dependências
 
-pip install -r requirements.txt
+pip install pandas numpy matplotlib seaborn jupyter
 
-(Caso não tenha um requirements.txt, instale manualmente pandas, numpy, matplotlib e seaborn.)
-
-Execute o Jupyter Notebook:
+### 4. Execute o Jupyter Notebook
 
 jupyter notebook
 
@@ -94,21 +79,18 @@ Abra o arquivo:
 
 Análise_e_visualização_do_Spotify.ipynb
 
-📁 Estrutura do Projeto
+ 📁 Estrutura do Projeto
 
-📦 spotify-analytics
- ┣ 📜 Análise_e_visualização_do_Spotify.ipynb
- ┣ 📜 README.md
- ┗ 📜 requirements.txt (opcional)
+ spotify-analytics/
+ 
+│
+├── Análise_e_visualização_do_Spotify.ipynb
 
- 🎯 Possíveis Melhorias Futuras
+├── README.md
 
-Dashboard interativo com Streamlit
+└── requirements.txt (opcional)
 
-Aplicação Web com Flask
 
-Análise preditiva de popularidade
 
-Clusterização de músicas por perfil sonoro
 
-Deploy em ambiente cloud
+

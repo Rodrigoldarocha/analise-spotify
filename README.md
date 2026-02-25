@@ -1,80 +1,114 @@
-🎧 Previsão de Popularidade de Músicas com Machine Learning
+🎧 Análise e Visualização de Dados do Spotify
 
-Este projeto apresenta um pipeline completo de Ciência de Dados, desenvolvido em Python e executado no Google Colab, com o objetivo de prever a popularidade de músicas a partir de suas características acústicas, utilizando técnicas de regressão.
+Projeto de análise exploratória e visualização de dados utilizando um dataset do Spotify para extrair insights sobre músicas, artistas e padrões musicais.
 
-O projeto foi construído com foco didático, mas seguindo boas práticas reais da área, sendo ideal tanto para aprendizado quanto para portfólio profissional.
+📌 Objetivo
 
-🧠 Objetivo do Projeto
+Este projeto tem como objetivo:
 
-Construir um modelo de Machine Learning capaz de prever a variável popularity (valor numérico contínuo) com base em atributos como energia, dança, loudness, tempo, entre outros.
+Realizar análise exploratória de dados (EDA)
 
-🗂️ Etapas do Projeto
-1. Carregamento e Exploração Inicial dos Dados
+Identificar padrões musicais e tendências
 
-Importação do dataset
+Visualizar informações relevantes de forma clara e estratégica
 
-Verificação de dimensões, tipos de dados e valores ausentes
-
-Análise inicial da estrutura dos dados
-
-2. Análise Exploratória de Dados (EDA)
-
-Estatísticas descritivas
-
-Visualização da distribuição da variável alvo
-
-Análise de correlação entre variáveis numéricas
-
-Identificação de padrões relevantes para modelagem
-
-3. Preparação dos Dados
-
-Remoção de colunas não relevantes para o modelo
-
-Separação entre variáveis explicativas (X) e variável alvo (y)
-
-Padronização dos dados com StandardScaler
-
-Divisão em conjuntos de treino e teste
-
-4. Modelagem
-
-Treinamento de um modelo de Regressão Linear
-
-Justificativa da escolha do modelo (simplicidade e interpretabilidade)
-
-5. Avaliação do Modelo
-
-Avaliação com métricas de regressão:
-
-MAE (Mean Absolute Error)
-
-RMSE (Root Mean Squared Error)
-
-R² (Coeficiente de Determinação)
-
-Visualização dos valores reais vs. previstos
+Aplicar técnicas de manipulação e análise de dados com Python
 
 🛠️ Tecnologias Utilizadas
 
 Python
 
-Pandas
+Pandas – Manipulação e tratamento de dados
 
-NumPy
+NumPy – Operações numéricas
 
-Matplotlib
+Matplotlib – Visualização de dados
 
-Seaborn
+Seaborn – Visualizações estatísticas
 
-Scikit-learn
+Jupyter Notebook – Ambiente de desenvolvimento
 
-Google Colab
+📊 Etapas do Projeto
 
-📈 Resultados
+1️⃣ Importação e Tratamento dos Dados
 
-O modelo foi capaz de capturar parte significativa da relação entre as variáveis acústicas e a popularidade das músicas. Apesar de simples, a Regressão Linear serviu como uma excelente base para compreensão do problema e pode ser aprimorada com modelos mais complexos.
+Carregamento do dataset
 
-Link do Notebook:
+Verificação de valores nulos
 
-https://colab.research.google.com/drive/1yIS8tf6hbeJ5139blAI4S-u2on1aQ7mc?usp=sharing
+Ajustes de tipos de dados
+
+Limpeza e padronização
+
+2️⃣ Análise Exploratória (EDA)
+
+Estatísticas descritivas
+
+Distribuição das variáveis
+
+Correlação entre atributos musicais
+
+Identificação de padrões relevantes
+
+3️⃣ Visualização de Dados
+
+Gráficos de distribuição
+
+Heatmaps de correlação
+
+Análises comparativas
+
+Insights visuais estratégicos
+
+📈 Exemplos de Insights Possíveis
+
+Relação entre popularidade e energia
+
+Distribuição de músicas por ano
+
+Correlação entre danceability e valence
+
+Características predominantes nas músicas mais populares
+
+🚀 Como Executar o Projeto
+
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+Acesse a pasta do projeto:
+
+cd seu-repositorio
+
+Instale as dependências:
+
+pip install -r requirements.txt
+
+(Caso não tenha um requirements.txt, instale manualmente pandas, numpy, matplotlib e seaborn.)
+
+Execute o Jupyter Notebook:
+
+jupyter notebook
+
+Abra o arquivo:
+
+Análise_e_visualização_do_Spotify.ipynb
+
+📁 Estrutura do Projeto
+
+📦 spotify-analytics
+ ┣ 📜 Análise_e_visualização_do_Spotify.ipynb
+ ┣ 📜 README.md
+ ┗ 📜 requirements.txt (opcional)
+
+ 🎯 Possíveis Melhorias Futuras
+
+Dashboard interativo com Streamlit
+
+Aplicação Web com Flask
+
+Análise preditiva de popularidade
+
+Clusterização de músicas por perfil sonoro
+
+Deploy em ambiente cloud

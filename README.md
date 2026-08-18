@@ -61,11 +61,11 @@ Este projeto tem como objetivo:
 
 ### 1. Clone o repositório
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Rodrigoldarocha/analise-spotify.git
 
 ### 2. Acesse a pasta
 
-cd seu-repositorio
+cd analise-spotify
 
 ### 3. Instale as dependências
 
@@ -77,18 +77,20 @@ jupyter notebook
 
 Abra o arquivo:
 
-Análise_e_visualização_do_Spotify.ipynb
+Análise_e_visualização_do_Spotifyl.ipynb
 
- 📁 Estrutura do Projeto
+ ## 📁 Estrutura do Projeto
 
- spotify-analytics/
- 
-│
-├── Análise_e_visualização_do_Spotify.ipynb
+```text
+├── Análise_e_visualização_do_Spotifyl.ipynb   # notebook principal
+└── README.md
+```
 
-├── README.md
+---
 
-└── requirements.txt (opcional)
+## 👨‍💻 Autor
+
+**Rodrigo Rocha** — [GitHub](https://github.com/Rodrigoldarocha) · [LinkedIn](https://www.linkedin.com/in/rodrigo-rocha-19249170/)
 
 
 
